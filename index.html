@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Hero Lite</title>
+  <link rel="icon" type="image/x-icon" href="./images/p-h-fav.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/77b9b778ff.js" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+
+<!-- for owl carousel -->
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+
+
+
+<!-- style -->
+<style>
+
+</style>
+</head>
+
+<body>
+
+  <header class="header_section h-100">
+    <!-- navbar -->
+    <nav class="navbar_section navbar navbar-expand-lg navbar-light ">
+      <div class="container px-5">
+        <a class="navbar-brand" href="#">
+          <img class="img-fluid" src="./images/logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav d-flex align-items-center  ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item pe-lg-4">
+              <a class="nav-link active text-white fw-bold" aria-current="page" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="#">My Classes</a>
+            </li>
+            <li class="px-0 py-4 py-lg-0 px-lg-4 nav-item d-flex align-items-center ">
+              <i class="text-white fas fa-bell position-relative">
+
+
+                <span class="position-absolute top-0  translate-middle badge rounded-pill bg-danger">
+                  0
+
+                </span>
+
+              </i>
+            </li>
+            <li class=" pe-lg-4 pb-4 pb-lg-0 nav-item  d-flex align-items-center ">
+              <i class="fas fa-cart-arrow-down position-relative text-white">
+
+
+                <span class="position-absolute top-0  translate-middle badge rounded-pill bg-danger">
+                  0
+
+                </span>
+
+              </i>
+            </li>
+            <li class="nav-item ">
+
+              <span style="width: fit-content;"
+                class=" rounded-pill px-3  p-0 p-lg-1 mb-4 mb-lg-0 text-primary bg-white d-flex align-items-center px-lg-3   fw-bold "><img
+                  class="me-3" src="./images/gem.d62eb74a.svg" alt="">
+                20
+              </span>
+
+            </li>
+            <li class="nav-item d-flex align-content-center  px-lg-3">
+              <img class="rounded-circle" style="width: 5vh; height: 5vh;object-fit: cover;"
+                src="./images/jhankar-mahbub.png" alt="">
+            </li>
+
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- slider -->
+    <div class="container mt-5 py-5">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+
+        <div class="carousel-inner ">
+
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-center justify-content-center ">
+                <div class="w-75">
+                  <h1 class="text-white">Learn Effectively that will take you towards your goal</h1>
+                  <p class="text-white"><small>ভিডিও কনটেন্ট বা কোর্স অনেকভাবেই ম্যানেজ করতে পারবে। কিন্তু সেটাকে ধরে
+                      ধরে ইন্টার্ন/ফুলটাইম চাকরি পর্যন্ত নিয়ে যাওয়ার জন্য একটা ইফেক্টিভ এবং এনজয়েবল লার্নিং এনভায়রনমেন্ট
+                      শুধু এই কোর্সেই পাবে।</small></p>
+                  <button class="btn btn-color text-white fw-bold d-flex align-items-center rounded-pill px-4">Cotinue
+                    Course <i style="color:#FF2F9C;padding: 10px;"
+                      class="fas fa-arrow-right ms-4 bg-white rounded-circle"></i></button>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-center justify-content-center"><img style="width: 60%;"
+                  class="img-fluid res-img" src="./images/slider-img-1.png" alt=""></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-center justify-content-center ">
+                <div class="w-75">
+                  <h1 class="text-white">Complete Web Development Course with Jhankar Mahbub</h1>
+                  <p class="text-white"><small>একদম জিরো থেকে, কোন প্রকার পূর্ব অভিজ্ঞতা ছাড়াই একজন প্রফেশনাল ওয়েব
+                      ডেভেলপার হওয়ার জন্য যা যা লাগবে তার সবকিছুই সহজ করে গিলিয়ে খাওয়ানো হবে এই কোর্সে।</small></p>
+                  <button class="btn btn-color text-white fw-bold d-flex align-items-center rounded-pill px-4">Cotinue
+                    Course <i style="color:#FF2F9C;padding: 10px;"
+                      class="fas fa-arrow-right ms-4 bg-white rounded-circle"></i></button>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-center justify-content-center"><img style="width: 60%;"
+                  class="img-fluid res-img" src="./images/slider-img-2.png" alt=""></div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-center justify-content-center ">
+                <div class="w-75">
+                  <h1 class="text-white">Build 12 professional projects while learning.</h1>
+                  <p class="text-white"><small>কোর্সের অংশ হিসেবে হাতে কলমে নতুন এগারোটা প্রজেক্ট (এসাইনমেন্ট) করবে
+                      তুমি। আমরা তোমার প্রজেক্ট এর ফিডব্যাক দিবো। মার্কস দিবো। যাতে প্রফেশনাল ওয়েবসাইট বানিয়েই চাকরির
+                      ইন্টারভিউতে যেতে পারো। 💪</small></p>
+                  <button class="btn btn-color text-white fw-bold d-flex align-items-center rounded-pill px-4">Cotinue
+                    Course <i style="color:#FF2F9C;padding: 10px;"
+                      class="fas fa-arrow-right ms-4 bg-white rounded-circle"></i></button>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-center justify-content-center"><img style="width: 60%;"
+                  class="img-fluid res-img" src="./images/slider-img-3.png" alt=""></div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-center justify-content-center ">
+                <div class="w-75">
+                  <h1 class="text-white">Got stuck? We will always be there for you.</h1>
+                  <p class="text-white"><small>২৪ ঘন্টার মধ্যে কোর্স রিলেটেড সকল প্রশ্নের উত্তর দেয়ার জন্য সাতজন
+                      প্রফেশনাল ওয়েব ডেভেলপার স্ট্যান্ডবাই থাকে (ছুটির দিন বাদে)। প্রতিদিন তিনবার গুগল মিট এ
+                      স্ক্রিনশেয়ার করে সমস্যা সমাধান করতে পারবে। 🥊</small></p>
+                  <button class="btn btn-color text-white fw-bold d-flex align-items-center rounded-pill px-4">Cotinue
+                    Course <i style="color:#FF2F9C;padding: 10px;"
+                      class="fas fa-arrow-right ms-4 bg-white rounded-circle"></i></button>
+                </div>
+              </div>
+              <div class="col-md-6 d-flex align-items-center justify-content-center"><img style="width: 60%;"
+                  class="img-fluid res-img" src="./images/slider-img-4.png" alt=""></div>
+            </div>
+          </div>
+          <div class="carousel-indicators ">
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <!-- slider end -->
+
+    <section class="course-time container">
+      <div class="row course-time  m-auto bg-white p-lg-5 p-md-3 p-sm-2 py-3 p-0  shadow-lg ">
+        <h1 class="text-center fw-bold mb-5">পরবর্তী ব্যাচের সময় সূচি</h1>
+        <div class="col-md-6 ">
+          <p class="fw-bold"><i style="color: white;background: #6641F6;"
+              class="fas fa-calendar-week p-2 me-2 rounded-3"></i>এনরোলমেন্ট শুরু: জুন ১০, ২০২২ (শুক্রবার)</p>
+          <p class="fw-bold"><i style="color: white;background-image: linear-gradient(-45deg,#fc5e51,#f59e75);"
+              class="far fa-bookmark two p-2 me-2 rounded-3"></i>এনরোলমেন্ট শেষ: জুন ২৪, ২০২২ (শুক্রবার)</p>
+        </div>
+        <div class="col-md-6">
+          <p class="fw-bold"><i style="color: white;background: linear-gradient(-45deg,#ff9c35,#ffd019);"
+              class="far fa-bell three p-2 me-2 rounded-3"></i>ব্যাচের ওরিয়েন্টশন: জুন ২৮, ২০২২ (মঙ্গলবার)</p>
+          <p class="fw-bold"><i style="color: white;background-image: linear-gradient(-45deg,#ff193f,#ff35b4);"
+              class="fas fa-tv four p-2 me-2 rounded-3"></i>ক্লাস শুরু: জুন ৩০, ২০২২ (বৃহস্পতিবার)</p>
+        </div>
+        <div style="background-color: #6641F6;"
+          class="d-flex flex-wrap align-items-center justify-content-between p-1  rounded-3 my-5">
+          <p class="text-white m-0 fx-bolder ms-3"><strong>তুমি ৬ষ্ঠ ব্যাচে এনরোল করতে আগ্রহি হলে, ওয়েবসাইটে
+              রেজিস্ট্রেশন করে রাখো</strong></p>
+          <button class="btn btn-color text-white fw-bold d-flex align-items-center rounded-pill px-4">Cotinue Course <i
+              style="color:#FF2F9C;padding: 10px;" class="fas fa-arrow-right ms-4 bg-white rounded-circle"></i></button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </header>
+
+
+  <main class="mt-5 pt-5">
+    <section class="course_outline container">
+      <h3 class="text-center fw-bold mb-5 pb-5"><strong>এই কোর্স থেকে কি কি শিখতে পারবে:</strong></h3>
+      <div class="row mx-lg-5 mx-0 g-5">
+        <div  class="col-md-4 p-3 shadow-lg h-100  border-5 rounded-3">
+          <!-- video -->
+          <img  src="./images/enrollment.png" class="img-fluid w-100" alt="">
+          <button class=" enroll-btn mt-3 w-100">Enrollment is Closed</button>
+          <div class="d-flex align-items-center justify-content-between mt-3 flex-wrap">
+            <span  class="d-flex align-items-center bg-white shadow-lg p-1 rounded-pill"><img class="me-1 img-fluid enroll-icon" src="./images/enroll-icon1.png" alt=""><small>775 Videos</small></span>
+            <span  class="d-flex align-items-center bg-white shadow-lg p-1 rounded-pill"><img class="me-1 enroll-icon" src="./images/enroll-icon2.png" alt=""><small>300 Quizes</small></span>
+            <span  class="d-flex align-items-center bg-white shadow-lg p-1 rounded-pill"><img class="me-1 enroll-icon" src="./images/enroll-icon3.png" alt=""><small>12 Assignment</small></span>
+          </div>
+          <h1 class="mt-2">৳ 5500</h1>
+
+          <!-- video -->
+        </div>
+        <div class="col-md-8">
+          <div class="row gy-4">
+            <div class="col-md-6 ">
+             <article class="d-flex">
+              <i style="color:#FF6347;font-size: 25px;" class="fas fa-check-square mt-1"></i>
+              <p style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;" class=" ms-3 w-75 ">ফটাফট কয়েকটা ভিডিও দেখে HTML, CSS শিখে ফটাফট চমৎকার দুইটা ওয়েবসাইট বানিয়ে ফেলবে। এবং সেগুলার লিংক যেকারো সাথে শেয়ার করে ভাব পেটাতে পারবে।</p>
+             </article>
+            </div>
+            <div class="col-md-6 ">
+              <article class="d-flex">
+               <i style="color:#FF6347;font-size: 25px;" class="fas fa-check-square mt-1"></i>
+               <p style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;" class=" ms-3 w-75 ">বুটস্ট্রাপ (bootstrap) নামক পপুলার ফ্রেমওয়ার্ক এর খুঁটিনাটি ভাজা ভাজা করে ফেলবে। তারপর সেটা দিয়েও দুইটা ই-কমার্স ওয়েবসাইট বানিয়ে ফেলবে। কি মজা !
+              </p>
+              </article>
+             </div>
+             <div class="col-md-6 ">
+              <article class="d-flex">
+               <i style="color:#FF6347;font-size: 25px;" class="fas fa-check-square mt-1"></i>
+               <p style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;" class=" ms-3 w-75 ">জাভাস্ক্রিপ্টের ছয়টা মেইন জিনিস, জাভাস্ক্রিপ্ট দিয়ে প্রবলেম সলভিং, ইন্টারভিউ এর প্রশ্ন-উত্তর। এমনকি ES6 দিয়ে তোমার নলেজকে যোগোপযোগী করে তুলবে
+              </p>
+              </article>
+             </div>
+             <div class="col-md-6 ">
+              <article class="d-flex">
+               <i style="color:#FF6347;font-size: 25px;" class="fas fa-check-square mt-1"></i>
+               <p style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;" class=" ms-3 w-75 ">জাভাস্ক্রিপ্ট দিয়ে ব্যাংকের deposit, withdraw এর লাইভ ক্যালকুলেশন থাকছে। তারপরই থাকছে ই-কমার্স সাইটের শপিং কার্টের হিসাব-নিকাশ করার সিস্টেম
+              </p>
+              </article>
+             </div>
+             <div class="col-md-6 ">
+              <article class="d-flex">
+               <i style="color:#FF6347;font-size: 25px;" class="fas fa-check-square mt-1"></i>
+               <p style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;" class=" ms-3 w-75 ">সার্ভার সম্পর্কে ধারণা, REST API কল করে JSON ডাটা লোড করা, node, mongodb (database), chrome devtool দিয়ে ডিবাগিং সম্পর্কে ধারণা দেয়া হবে।
+              </p>
+              </article>
+             </div>
+             <div class="col-md-6 ">
+              <article class="d-flex">
+               <i style="color:#FF6347;font-size: 25px;" class="fas fa-check-square mt-1"></i>
+               <p style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;" class=" ms-3 w-75 ">কোর্সের সবচেয়ে গুরুত্বপূর্ণ দিক হচ্ছে দুনিয়ার সবচেয়ে বেশি চাকরি যে জাভাস্ক্রিপ্ট ফ্রেমওয়ার্ক এ (React), সেটা দিয়ে পরিপূৰ্ণ একটা ওয়েবসাইট একদম শূন্য থেকে শেষ পর্যন্ত দেখানো হয়েছে।
+              </p>
+              </article>
+             </div>
+             <div class="col-md-6 ">
+              <article class="d-flex">
+               <i style="color:#FF6347;font-size: 25px;" class="fas fa-check-square mt-1"></i>
+               <p style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;" class=" ms-3 w-75 ">React দিয়ে সম্পূর্ণ প্রফেশনাল ওয়েবসাইট। ডাটাবেজ, সার্ভার সাইড, হোস্টিং, পেমেন্ট সিস্টেম, লগইন, রাউটিং দিয়ে ১০০% ক্লায়েন্ট-রেডি ওয়েবসাইট বানিয়ে দেখানো হবে।
+              </p>
+              </article>
+             </div>
+             <div class="col-md-6 ">
+              <article class="d-flex">
+               <i style="color:#FF6347;font-size: 25px;" class="fas fa-check-square mt-1"></i>
+               <p style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;" class=" ms-3 w-75 ">কাজের প্রয়োজনে Firebase Authentication, TypeScript, Sass, Tailwind, গুগল ম্যাপ api সহ এমন আরো অসংখ্য প্রয়োজনীয় টুলস এর সাথে পরিচয় করিয়ে দেয়া হবে।
+              </p>
+              </article>
+             </div>
+             <div class="col-md-6 ">
+              <article class="d-flex">
+               <i style="color:#FF6347;font-size: 25px;" class="fas fa-check-square mt-1"></i>
+               <p style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;" class=" ms-3 w-75 ">সর্বমোট ১২টা প্রজেক্ট তুমি নিজে করবে। আমাদের হেল্প নিয়ে। এছাড়াও ৫টা ওয়েবসাইট আমরা দেখিয়ে দিবো। যেগুলা করতে করতে তুমি নিজের অজান্তেই পরিপূর্ন ওয়েব ডেভেলপার হয়ে উঠবে।
+              </p>
+              </article>
+             </div>
+             <div class="col-md-6 ">
+              <article class="d-flex">
+               <i style="color:#FF6347;font-size: 25px;" class="fas fa-check-square mt-1"></i>
+               <p style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;" class=" ms-3 w-75 ">এনরোল করার ১৫ সপ্তাহের মধ্যে পুরা কোর্স সিরিয়াসলি কমপ্লিট কারীদের নিয়ে আমরা তৈরি করবো Super Charged Interviewee Club (SCIC) সিক্রেট ক্লাব। যাদের স্পেশাল ইন্টারভিউ ট্রেনিং দিয়ে রেজুমি পাঠিয়ে দিবো বিভিন্ন কোম্পানিতে ইন্টার্ন বা ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য।
+              </p>
+              </article>
+             </div>
+             <div class="col-md-12">
+              <p  style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;">  তবে যারা একটু ফাঁকিবাজ তাদের জন্য দুঃসংবাদ হচ্ছে। প্রত্যেক ভিডিও এর পরে প্রশ্ন থাকছে। প্রত্যেক মডিউল শেষে ফাইনাল কুইজ আছে। আর প্রত্যেকটা প্রজেক্টের পর একটা করে টেক-এওয়ে হোমওয়ার্ক আছে। </p>
+              
+
+               <p style="font-size: 17px;font-weight: 500;line-height: 26px;color:#000;">এই কোর্স ফলো করে কেউ যদি ওয়েব ডেভেলপার না হতে পারে, দুনিয়ার আর কেউ তাকে ওয়েব ডেভেলপার বানাতে পারবে না।</p>
+             </div>
+         
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section style="background-color: #F5F7FF;" class="course-advantage mt-5 py-5 ">
+         <div style="margin: auto;padding:30px 0;" class="advantage-header d-flex  justify-content-center rounded bg-white">
+           <div id="course-specialty" class="mx-5 d-flex flex-column align-items-center">
+            <i style="font-size: 40px;line-height: 29px;" class="fas fa-star"></i>
+            <p  class="mt-4"><strong>এই কোর্সের বিশেষত্ব কি?</strong></p>
+            <hr class="custom-hr" id="hr-line">
+           </div>
+           <div id="course-sedule" class="mx-5 d-flex flex-column align-items-center">
+            <i style="font-size: 40px;line-height: 29px;" class="fas fa-pen"></i>
+            <p class="mt-4"><strong>এই কোর্স কিভাবে চলবে?
+            </strong></p>
+            <hr  id="hr-line2">
+           </div>
+         </div>
+
+ <!-- course content -->
+       <div id="course-outline"  class="container mt-5 pt-5">
+
+        <div class="row g-4 mx-lg-5">
+          <div class="col-md-6">
+            <div class="d-flex align-items-center justify-content-center p-4 bg-white rounded">
+             <h1 style="font-size: 6rem;">১</h1>
+             <p class="m-0 ms-4" style="font-size: 14px;">প্রতিদিন রাত ১০.০০ এর সময় (বাংলাদেশ সময়) একটা মডিউল রিলিজ দেয়া হবে। তোমার কাজ হবে ২৪ ঘন্টার মধ্যে সব ভিডিও দেখে শেষ করে ফেলা। মোটামুটি ১.৫ থেকে ২ ঘন্টার মতো ভিডিও থাকবে। </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center justify-content-center p-4 bg-white rounded">
+             <h1 style="font-size: 6rem;">	২</h1>
+             <p class="m-0 ms-4" style="font-size: 14px;">প্রতিদিন রাত ১০.০০ এর সময় (বাংলাদেশ সময়) একটা মডিউল রিলিজ দেয়া হবে। তোমার কাজ হবে ২৪ ঘন্টার মধ্যে সব ভিডিও দেখে শেষ করে ফেলা। মোটামুটি ১.৫ থেকে ২ ঘন্টার মতো ভিডিও থাকবে। </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center justify-content-center p-4 bg-white rounded">
+             <h1 style="font-size: 6rem;">৩</h1>
+             <p class="m-0 ms-4" style="font-size: 14px;">প্রতিদিন রাত ১০.০০ এর সময় (বাংলাদেশ সময়) একটা মডিউল রিলিজ দেয়া হবে। তোমার কাজ হবে ২৪ ঘন্টার মধ্যে সব ভিডিও দেখে শেষ করে ফেলা। মোটামুটি ১.৫ থেকে ২ ঘন্টার মতো ভিডিও থাকবে। </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center justify-content-center p-4 bg-white rounded">
+             <h1 style="font-size: 6rem;">৪</h1>
+             <p class="m-0 ms-4" style="font-size: 14px;">প্রতিদিন রাত ১০.০০ এর সময় (বাংলাদেশ সময়) একটা মডিউল রিলিজ দেয়া হবে। তোমার কাজ হবে ২৪ ঘন্টার মধ্যে সব ভিডিও দেখে শেষ করে ফেলা। মোটামুটি ১.৫ থেকে ২ ঘন্টার মতো ভিডিও থাকবে। </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center justify-content-center p-4 bg-white rounded">
+             <h1 style="font-size: 6rem;">৫</h1>
+             <p class="m-0 ms-4" style="font-size: 14px;">প্রতিদিন রাত ১০.০০ এর সময় (বাংলাদেশ সময়) একটা মডিউল রিলিজ দেয়া হবে। তোমার কাজ হবে ২৪ ঘন্টার মধ্যে সব ভিডিও দেখে শেষ করে ফেলা। মোটামুটি ১.৫ থেকে ২ ঘন্টার মতো ভিডিও থাকবে। </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center justify-content-center p-4 bg-white rounded">
+             <h1 style="font-size: 6rem;">৬</h1>
+             <p class="m-0 ms-4" style="font-size: 14px;">প্রতিদিন রাত ১০.০০ এর সময় (বাংলাদেশ সময়) একটা মডিউল রিলিজ দেয়া হবে। তোমার কাজ হবে ২৪ ঘন্টার মধ্যে সব ভিডিও দেখে শেষ করে ফেলা। মোটামুটি ১.৫ থেকে ২ ঘন্টার মতো ভিডিও থাকবে। </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center justify-content-center p-4 bg-white rounded">
+             <h1 style="font-size: 6rem;">৭</h1>
+             <p class="m-0 ms-4" style="font-size: 14px;">প্রতিদিন রাত ১০.০০ এর সময় (বাংলাদেশ সময়) একটা মডিউল রিলিজ দেয়া হবে। তোমার কাজ হবে ২৪ ঘন্টার মধ্যে সব ভিডিও দেখে শেষ করে ফেলা। মোটামুটি ১.৫ থেকে ২ ঘন্টার মতো ভিডিও থাকবে। </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex align-items-center justify-content-center p-4 bg-white rounded">
+             <h1 style="font-size: 6rem;">৮</h1>
+             <p class="m-0 ms-4 " style="font-size: 14px;">প্রতিদিন রাত ১০.০০ এর সময় (বাংলাদেশ সময়) একটা মডিউল রিলিজ দেয়া হবে। তোমার কাজ হবে ২৪ ঘন্টার মধ্যে সব ভিডিও দেখে শেষ করে ফেলা। মোটামুটি ১.৫ থেকে ২ ঘন্টার মতো ভিডিও থাকবে। </p>
+            </div>
+          </div>
+        </div>
+       </div>
+<!-- course extra -->
+       <div id="course-card" class="container mt-5 pt-5 px-5 ">
+        <div class="row g-5 mx-lg-0">
+          <div class="col-lg-3 col-md-4 col-sm-6 ">
+           <div class="card isActive rounded-3    p-4">
+            <img width="70" height="70" src="./images/course-advantage.png" alt="">
+            <div class="card-body  p-0 mt-3">
+              <h5 class="card-title text-secondary">এইটা কমপ্লিট ওয়েব ডেভেলপমেন্ট এর কোর্স:</h5>
+              <p class="text-secondary" ><small>শূন্য থেকে একজন জুনিয়র ওয়েব ডেভেলপার হিসেবে চাকরি পাওয়ার জন্য যা যা লাগে তার সবকিছুই ধরে ধরে শিখানো হয়েছে এই কোর্সে। সো, এই কোর্স ভালোভাবে ফিনিশ করলে ওয়েব ডেভেলপমেন্ট সম্পর্কে আর কোথাও কোন কোর্স না করেই ইন্টার্ন বা চাকরির চেষ্টা শুরু করে দিতে পারবে।</small></p>
+            </div>
+            <div>
+            
+              <span style="color: #ff136f;font-weight: 600;cursor: pointer;"  class="content"></span>
+            </div>
+           </div>
+           
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 ">
+            <div class="card isActive rounded-3   p-4">
+             <img width="70" height="70" src="./images/course-advantage-2.png" alt="">
+             <div class="card-body  p-0 mt-3">
+               <h5 class="card-title text-secondary">আনলিমিটেড সাপোর্ট:
+              </h5>
+               <p class="text-secondary" ><small>কোর্স চলাকালীন সময়ে ২৪ ঘন্টার মধ্যে তোমার যেকোন প্রশ্নের উত্তর দেয়া হবে (ছুটির দিন বাদে)। পেঁচগি মার্কা কোন প্রবলেম হলে প্রতিদিন ২/৩ বার গুগল মিটে এ এসে তোমার স্কিন শেয়ার করে প্রবলেম সলভ করা হবে। আর কোর্স শেষ হয়ে গেলে (৩মাস পরেও ) তোমাকে লুজ সাপোর্ট দেয়া হবে</small></p>
+             </div>
+             <div>
+             
+               <span style="color: #ff136f;font-weight: 600;cursor: pointer;"  class="content"></span>
+             </div>
+            </div>
+            
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6 ">
+            <div class="card  isActive rounded-3   p-4">
+             <img width="70" height="70" src="./images/course-advantage-3.png" alt="">
+             <div class="card-body  p-0 mt-3">
+               <h5 class="card-title text-secondary">স্পেশাল ইন্টারভিউ প্রিপারেশন গ্রূপ:
+              </h5>
+               <p class="text-secondary" ><small>যারা ডেইলি ডেইলি কাজ করবে। প্রতিদিন ৬ থেকে ৮ ঘন্টা সময় দিবে। জানপ্রাণ দিয়ে সিরিয়াসভাবে কোর্স নির্দিষ্ট সময়ের মধ্যে ফিনিশ করবে। তাদের নিয়ে তৈরি করা SCIC (Super Charged Interviewee Club) । এইটা ৪ থেকে ৬ সপ্তাহের স্পেশাল ট্রেনিং। যেটার জন্য আলাদা কোন ফি নাই। একটাই যোগ্যতা: সিরিয়াস হার্ডওয়ার্ক করে নিদৃস্ট সময়ের মধ্যে মেইন কোর্স ফিনিশ করা।
+
+              </small></p>
+             </div>
+             <div>
+             
+               <span style="color: #ff136f;font-weight: 600;cursor: pointer;"  class="content"></span>
+             </div>
+            </div>
+            
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6 ">
+            <div class="card  isActive rounded-3   p-4">
+             <img width="70" height="70" src="./images/course-advantage-4.png" alt="">
+             <div class="card-body  p-0 mt-3">
+               <h5 class="card-title text-secondary">জব প্লেসমেন্ট কোচ:
+              </h5>
+               <p class="text-secondary" ><small>যারা SCIC তে সুযোগ পাবে। এবং সেটা ঠিক মতো শেষ করবে আরো ৪ থেকে ৬ সপ্তাহ লেগে থাকবে। তাদের আরো পার্সোনালাইজড ট্রেনিং দিয়ে তাদের আমাদের জব প্লেসমেন্ট টিম তাদের সিভি/রেজুমি পাঠিয়ে দিবে বিভিন্ন কোম্পানিতে। কোম্পানি হায়ার করবে, কি করবে না: সেটা তাদের সিদ্ধান্ত। তোমার কাজ হচ্ছে লেগে থাকা আর আমাদের কাজ হচ্ছে সাপোর্ট দিয়ে সিভি পৌঁছে দেয়া। সো, যতক্ষণ পর্যন্ত তুমি লেগে আছো। আমরা আছি তোমার সাথে।
+
+              </small></p>
+             </div>
+             <div>
+             
+               <span style="color: #ff136f;font-weight: 600;cursor: pointer;"  class="content"></span>
+             </div>
+            </div>
+            
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6 ">
+            <div class="card  isActive rounded-3   p-4">
+             <img width="70" height="70" src="./images/course-advantage-5.png" alt="">
+             <div class="card-body  p-0 mt-3">
+               <h5 class="card-title text-secondary">লাইভ কনচেপচুয়াল সেশন:
+              </h5>
+               <p class="text-secondary" ><small>শিখতে দুই-একটা কনসেপ্ট প্রথম ধাক্কায় সবার কাছে ক্লিয়ার নাও হতে পারে। এইটা খুবই স্বাভাবিক। এইটা নিয়ে মাথার চুল ছেঁড়ার কিচ্ছু নাই। কারণ প্রত্যেক মাইলস্টোন এ একটা বা দুইটা করে লাইভ কনসেপচুয়াল সেশন থাকবে। সেখানে নতুন নতুন প্রজেক্ট এর মাধ্যমে মেইন মেইন কনসেপ্টগুলো অল ক্লিয়ার শ্যাম্পুর চাইতেও ভালো করে ক্লিয়ার করে দেয়া হবে।
+
+              </small></p>
+             </div>
+             <div>
+             
+               <span style="color: #ff136f;font-weight: 600;cursor: pointer;"  class="content"></span>
+             </div>
+            </div>
+            
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6 ">
+            <div class="card  isActive rounded-3   p-4">
+             <img width="70" height="70" src="./images/course-advantage-6.png" alt="">
+             <div class="card-body  p-0 mt-3">
+               <h5 class="card-title text-secondary">Advance ক্রাশ কোর্স (ACC):
+              </h5>
+               <p class="text-secondary" ><small>প্রোগ্রামিং হিরোতে তুমি জাস্ট একটা কোর্স এ এনরোল করতেছো না। বরং লাইফ লং ওয়েব ডেভেলপমেন্ট শেখার মিশনে জয়েন করতেছো। সেজন্যই আমাদের মেইন কোর্স ফিনিশ করলে তুমি Advance ক্রাশ কোর্স (ACC) এ সুযোগ পাবে। সেখানে Node, Mongodb, Next JS ছাড়াও আরো অনেক নতুন নতুন Advance টপিক ইন ডেপ্থ শেখানো হবে। সেইসব Advance কোর্স এর জন্য বাড়তি কোন ফি দিতে হবে না। শুধু মেইন কোর্স ফিনিশ করতে হবে।
+
+              </small></p>
+             </div>
+             <div>
+             
+               <span style="color: #ff136f;font-weight: 600;cursor: pointer;"  class="content"></span>
+             </div>
+            </div>
+            
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card  isActive rounded-3   p-4">
+             <img width="70" height="70" src="./images/course-advantage-7.png" alt="">
+             <div class="card-body  p-0 mt-3">
+               <h5 class="card-title text-secondary">অফলাইন ভিডিও দেখার সুযোগ
+              </h5>
+               <p class="text-secondary" ><small>তোমার ব্রডব্যান্ড নাই! মোবাইল ডাটা বা এমবি কিনে ভিডিও দেখতে হয়? একই ভিডিও বারবার দেখার জন্য যেন ইন্টারনেট খরচ করা লাগে? প্যারা নেয়ার কিছু নাই। আমাদের এন্ড্রয়েড এপ এর মাধ্যমে কোর্সের ভিডিও অফলাইন সেইভ করে বারবার দেখতে পারবে। বাড়তি কোন ইন্টারনেট খরচ ছাড়াই।
+
+              </small></p>
+             </div>
+             <div>
+             
+               <span style="color: #ff136f;font-weight: 600;cursor: pointer;"  class="content"></span>
+             </div>
+            </div>
+            
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6 ">
+            <div class="card  isActive rounded-3   p-4">
+             <img width="70" height="70" src="./images/course-advantage-8.png" alt="">
+             <div class="card-body  p-0 mt-3">
+               <h5 class="card-title text-secondary">ইন্টারন্যাশনাল জব প্লেসমেন্ট:
+              </h5>
+               <p class="text-secondary" ><small>গ্লোবালাইজেশন এর যুগে তোমার জব প্লেসমেন্ট এর টার্গেট কেন শুধু বাংলাদেশ কেন্দ্রিক হবে? বরং দুনিয়ার যেকোন দেশে চাকরি/ইন্টার্ন পাওয়ার মতো লেভেলের হবে। সেজন্যই আমাদের SCIC এবং জব প্লেসমেন্ট টিম এর ফোকাস হচ্ছে তোমাকে দেশে বা দেশের বাইরের কোম্পানিতে ইন্টার্ন/জব এর জন্য রেডি করা। তোমার সিভি দেশে এবং দেশের কোম্পানিতে ফরওয়ার্ড করা।
+
+              </small></p>
+             </div>
+             <div>
+             
+               <span style="color: #ff136f;font-weight: 600;cursor: pointer;"  class="content"></span>
+             </div>
+            </div>
+            
+           </div>
+        
+   
+        </div>
+      
+       </div>
+
+    </section>
+
+
+
+    <!--কোর্সে যা কিছু আছে  -->
+    <section class="mt-5 py-5 ">
+      <h1 class="text-center">কোর্সে যা কিছু আছে</h1>
+      <div class="container mt-5 pt-5 px-3">
+        <div class="row mx-lg-5">
+          <div class="col-md-6 text-lg-start text-center">
+            <img class="img-fluid rounded-3 w-75" src="./images/course-banner.png" alt="">
+            <button class="btn mx-auto mx-lg-0 w-75 btn-color text-white fw-bold d-flex align-items-center justify-content-end rounded-pill px-4  mt-2">
+              <p></p>
+              <p class="m-0 mx-auto">Cotinue
+              Course</p> <i style="color:#FF2F9C;padding: 10px;"
+                class="fas fa-arrow-right  bg-white rounded-circle"></i></button>
+          </div>
+          <div style="height: 300px;overflow: scroll;overflow-x: hidden;" class="col-md-6 mt-5 mt-lg-0">
+
+             <!-- scroll items  -->
+      
+                   <h5>Module -1: Welcome Video</h5>
+                   <h5 class="mt-4">Module -0:Orientation. How to get ready for this course</h5>
+                   <h5 class="mt-4">Module -1:Learn and Explore HTML as a Beginner </h5>
+                   <h5 class="mt-4">Module 2: Learn and Explore CSS as a Beginner </h5>
+                   <h5 class="mt-4">Module 3: Git, source control, GitHub and hosting </h5>
+                   <h5 class="mt-4">Module 4: Build a beautiful and professional portfolio website </h5>
+                   <h5 class="mt-4">Module 5.5: [Bonus] Box model, pseudo class, position </h5>
+                   <h5 class="mt-4">Module 6: HTML 5 Semantic tags, audio, video, table, form </h5>
+                   <h5 class="mt-4">Module 7: More CSS, Icon, CSS3 animation </h5>
+                   <h5 class="mt-4">Module 8: Responsive CSS Layout </h5>
+                   <h5 class="mt-4">Module 8.5: CSS Recap, Debugging, Future Strategy </h5>
+                   <h5 class="mt-4">Module 9:  HTML CSS only Landing Page </h5>
+                   <h5 class="mt-4">Module 10: Responsive Website Assignment 2 </h5>
+                   <h5 class="mt-4">Module 10.5: bonus  </h5>
+                   <h5 class="mt-4">Module 11: Magic of Bootstrap (Getting started) </h5>
+                   <h5 class="mt-4">Module 12: Responsive Layout using Bootstrap </h5>
+                   <h5 class="mt-4">Module 12.5: Bootstrap Review and Practice </h5>
+                   <h5 class="mt-4">Module 13: Simple ecommerce landing page using Bootstrap </h5>
+             <!-- scroll items  -->
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- simple question -->
+
+     <section class="" style="background-color: #6641F6;">
+       <h1 class="text-center mt-5 py-5 text-white">কোর্স সম্পর্কিত সাধারণ জিজ্ঞাসা</h1>
+       <div class="container">
+        <div class="row  mt-5 pt-5 px-3">
+          <div class="col-md-6">
+            <div class="accordion accordion-flush " id="accordionFlushExample">
+              <div class="accordion-item bg-none mb-3 mb-3 ">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    এই কোর্স কাদের জন্য?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">যারা ওয়েব ডেভেলপার হতে চায়। যারা একদম শূন্য থেকে শুরু করে শেষ পর্যন্ত ওয়েব ডেভেলপমেন্ট শিখে তারপর ওয়েব ডেভেলপার হিসেবে কোন সফটওয়্যার কোম্পানিতে চাকরি করতে চায়, তাদের জন্য। যারা প্রোগ্রামিং বা ওয়েব ডেভেলপমেন্ট সম্পর্কে তেমন কিছুই জানে না, তাদের জন্য। এমনকি যারা চার বছর CSE পড়েও কিভাবে কি করবে দিশা করতে পারতেছে না, গুছিয়ে তেমন কিছু শিখেনি, তারাও এই কোর্স থেকে কমপ্লিট ওয়েব ডেভেলপমেন্ট শিখে চাকরিতে এপ্লাই করতে পারবে। 😀
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapseOne">
+                    কোর্সের মধ্যে কী কী আছে ?
+                  </button>
+                </h2>
+                <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">সেটা কোর্স কারিকুলাম দেখলেই বুঝতে পারবে। তবে ছোট করে বললে, বলা যায়: বর্তমান সময়ে একজন সিরিয়াস ওয়েব ডেভেলপার হওয়ার জন্য যা যা লাগে, তার সবই আছে এই কোর্সে। একদম ছোট করে বললে ধরো HTML, CSS থেকে শুরু করে bootstrap, JavaScript, Git, ES6, REST API, server, JSON তো আছেই। তার সাথে সাথে আছে বর্তমান সময়ে সবচেয়ে বেশি চাকরি যে ফ্রেমওয়ার্ক সেই React, advanced React দিয়ে কমপ্লিট ওয়েবসাইট বানানোর সিস্টেম আছে। বাড়তি হিসেবে আছে node, database (mongodb), debug, problem solving, interview questions সহ আরো অনেক জিনিস। আর পুরা কোর্সে তোমাকে ১১টা ওয়েবসাইট করে দেখানো হবে। আরো ১১টা ওয়েবসাইট থাকবে তোমার হোমওয়ার্ক হিসেবে। এই পুরা জিনিস কোন রকমে শেষ করতে পারলে, একজন উন্নতমানের জুনিয়র ওয়েব ডেভেলপার না হয়ে উপায় থাকবে না।
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapseOne">
+                    এই কোর্স শুরু করার আগে আমার কী কী পূর্ব অভিজ্ঞতা থাকা দরকার?
+                  </button>
+                </h2>
+                <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">আমরা যেহেতু একদম শূন্য থেকে শেখাচ্ছি। তাই তোমাকে আগে থেকে তেমন কিছু জানা লাগবে না। তবে তোমার হাতে যদি সময় থাকে তাহলে এই তিনটা কাজ করে ফেলতে পারো। ১. ভিডিও দেখে দেখে জিনিসগুলো মাথায় ঢুকানোর জন্য একটুখানি ব্রেনের খালি জায়গা রাখতে হবে। ২. কোর্স এ জয়েন করলেই অটো ওয়েব ডেভেলপার হয়ে যাবে না। হার্ডওয়ার্ক করার, লেগে থাকার মেন্টালিটি থাকতে হবে। ৩. কোথাও আটকে গেলে হেল্প চাওয়ার মেন্টালিটি এবং লেগে থাকার ইচ্ছা রাখতে হবে।
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapseOne">
+                    কোর্সের ভিডিও গুলো কিভাবে পাবো?
+                  </button>
+                </h2>
+                <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">কোর্সের ভিডিও গুলো প্রি-রেকর্ড থাকবে। তুমি একাউন্ট খুলে এই কোর্সে এনরোল করলে। ভিডিওগুলো কোর্স শুরু হওয়ার পরে থেকে প্রতিদিন একটা করে মডিউল দেয়া হবে। প্রত্যেকটা মডিউলে সাধরনত ১০ থেকে ১২ টা ভিডিও থাকে। এই ভিডিওগুলো যেদিন রিলিজ দেয়া হয়ে সেই দিনের মধ্যে তোমাকে দেখে ফিনিশ করতে হবে। তাই সেই হিসেবে কোর্সের জন্য প্রতিদিন ডেডিকেটেড সময় রাখতে হবে। এবং সেই সময়ের মধ্যে তুমি চাইলে শুয়ে-বসে, দাঁড়িয়ে-হেলিয়ে, পা দুলিয়ে, কোমর নাচিয়ে, কিংবা খাটের তলায় লুকিয়েও ভিডিও দেখতে পারবে।
+
+
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapseOne">
+                    এই কোর্স কমপ্লিট করতে কতদিন সময় লাগবে?
+                  </button>
+                </h2>
+                <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">তুমি যদি প্রতিদিন ১ থেকে দেড় ঘন্টা ধরে ভিডিও দেখো, তার সাথে সাথে এক্সট্রা ৪ থেকে ৬ ঘন্টা প্রাকটিস করো, তাহলে তোমার তিন মাসের মতো সময় লাগবে। তবে মাঝে মধ্যে হোমওয়ার্ক আর টেক এওয়ে প্রজেক্ট এর জন্য বাড়তি সময় বরাদ্ধ রাখতে হবে। হার্ডওয়ার্ক করার মেন্টালিটি নিয়ে আসতে হবে। ফাঁকিবাজি বা শর্টকাট করার কোন উপায় নাই।
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapseOne">
+                    কোর্সটি করতে শিক্ষাগত ব্যাকগ্রাউন্ড কেমন থাকা লাগবে?
+                  </button>
+                </h2>
+                <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">আমরা কোর্সটি এমনভাবে সাজিয়েছি যেখানে একাডেমিক ব্যাকগ্রাউন্ড ম্যাটার করে না। তুমি যেকোনো একাডেমিক ব্যাকগ্রাউন্ড থেকে এই কোর্সটি করতে পারবে। চাইলে ভার্সিটির স্টুডেন্ট, কলেজের স্টুডেন্ট, চাকরিজীবি, বেকার, প্রেমিক, পলাতক প্রেমিক, এমনকি ফোন ধরে না এমন প্রেমিকা সবাই যাতে শিখতে পারে সেজন্য একদম শূন্য থেকে শুরু করা হয়েছে। তবে অবশ্যই সময় দিতে হবে ৬-৮ ঘন্টা। মিনিমাম ৪-৫ ঘন্টা।
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapseOne">
+                    আমার কি কি জিনিস লাগবে?
+                  </button>
+                </h2>
+                <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">প্রথমত লাগবে ডেডিকেটেড সময়। প্রতিদিন মাস্ট ৬-৮ ঘন্টা। সম্ভব হলে ৮-১০ঘন্টা( সময় না দিতে পারলে। হার্ডওয়ার্ক করার ইচ্ছা না থাকলে কোর্সে এনরোল করে কোন লাভ হবে না।) দ্বিতীয়ত লাগবে একটা ল্যাপটপ বা একটা কম্পিউটার (যেখানে node, Visual Studio Code টাইপের সফটওয়্যার ইনস্টল করা যায়) আর তৃতীয়ত লাগবে মিনিমাম ২-১০ এমবিপিএস এর ইন্টারনেট। ব্রডব্যান্ড হলেই ভালো যাতে কোর্সের ভিডিও ভালোভাবে দেখা যায়। প্রফেশনাল ওয়েব ডেভেলপার হতে হলে মিনিমাম ৪ মাস সিরিয়াস হার্ডওয়ার্ক এর কথা মাথায় রেখে নামতে হবে।
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapseOne">
+                    এই কোর্সটা ফ্রি না কেন?	
+                  </button>
+                </h2>
+                <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">এই কোর্সটা জাস্ট ভিডিও দেখার কোর্স না। কারণ এই কোর্সের পিছনে সব মিলিয়ে ৩০ জন প্রফেশনাল ডেভেলপার করছে। তোমার ১১টা এসাইনমেন্ট দেখবে। এসাইনমেন্ট এর মার্কস প্লাস ফিডব্যাক দিবে। আরো সাতজন ওয়েব ডেভেলপার থাকবে যারা তোমার যেকোন প্রশ্নের উত্তর ২৪ ঘন্টার মধ্যে দেয়ার জন্য রেডি থাকবে। তোমার কোড এ সমস্যা হলে সেটা স্ক্রীনশেয়ার করে সলভ করে নেয়ার জন্য ডেডিকেটেড ডেভেলপার থাকবে। এছাড়াও কোর্সের ওয়েবসাইট বানানোর জন্য ডেভেলপার, ভিডিও এডিটর, কোর্স মডারেটর, লাইভ কন্সেপচুয়াল সেশন, জব প্লেসমেন্ট সাপোর্ট, সব মিলিয়ে যতজন লোক কাজ করে তাদের সংসার তো আর ফ্রি ফ্রি চলতে পারবে না। সেজন্য এই কোর্সে নূন্যতম একটা ফি আমাদের রাখতেই হচ্ছে।
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapseOne">
+                    কোর্স ফি ম্যানেজ করতে পারছি, কিন্তু সেটা দিতে সমস্যা হচ্ছে আমি কি করবো?	
+                  </button>
+                </h2>
+                <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">কোন টেনশন নাই। এখনই তোমার সমস্যা সম্পর্কে বিস্তারিত web@programming-hero.com এই ইমেইলে পাঠিয়ে দাও। অথবা আমাদের অফিসিয়াল নাম্বারে কল করে জানাও। আমরা ঘুমিয়ে না থাকলে সঙ্গে সঙ্গেই রিপ্লাই দিবো। সর্বোচ্চ ২৪ ঘন্টার মধ্যে উত্তর না পেলে, এই ইমেইল ওয়ালার খবর আছে।
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapseOne">
+                    কোর্স শেষ করার পর চাকরি কিভাবে পাব?	
+                  </button>
+                </h2>
+                <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">একটা জিনিস ভালো করে খেয়াল করো। আমরা কিন্তু চাকরির গ্যারান্টি দিচ্ছি না। আমরা বলছি তুমি মেইন কোর্স অনটাইমে ভালোভাবে ফিনিশ করলে SCIC তে যাবে। জব, ইন্টারভিউ রিলেটেড স্পেশাল ট্রেনিং পাবে। সেখানে হার্ডওয়ার্ক করলে আমাদের চারজন জব প্লেসমেন্ট টিম মেম্বার বিভিন্ন কোম্পানিতে তোমার সিভি/রেজুমি ফরওয়ার্ড করবে। সেই কোম্পানি তোমাকে ইন্টারভিউতে ডাকবে কি ডাকবে না সেটা তাদের সিদ্ধান্ত। আবার ইন্টারভিউতে ডাকলে তোমাকে চাকরি দিবে কি দিবে না সেটাও তাদের সিদ্ধান্ত। আমাদের দিক থেকে আমরা এইটুক কমিট করছি-- তুমি লেগে থাকলে আমরা তোমাকে হেল্প করবো। গাইড করবো। আমাদের কানেকশনগুলোতে তোমার সিভি ফরওয়ার্ড করবো।
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapseOne">
+                    আপনাদের কোর্স থেকে কি সবাই চাকরি পায়?  
+                  </button>
+                </h2>
+                <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">না। ১০০% সবাই চাকরি পায় না। তবে যারা মেইন কোর্স ফিনিশ করে। এবং SCIC ঠিক মতো ফিনিশ করে তাদের ৭০% চাকরি বা ইন্টার্ন পেয়ে যায়। বাকি যারা থাকে তাদের কেউ কেউ হয়তো ভার্সিটিতে প্রথম দিকে বা স্কুল কলেজে এবং তারা এখন চাকরি বা ইন্টার্ন খুজতেছে না। তবে যারা অনটাইমে কোর্স ফিনিশ করতে পারে না। তাদের জন্যও আমাদের সাপোর্ট থাকে এবং এদের থেকেও কেউ কেউ মাঝে মধ্যে চাকরি বা ইন্টার্ন পেয়ে যায়।
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse12" aria-expanded="false" aria-controls="flush-collapseOne">
+                    কোর্স ফলো করতে গিয়ে কোথাও আটকে গেলে কি করবো ?  
+                  </button>
+                </h2>
+                <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">আমরা কোর্সের জন্য একটা সিক্রেট ফেইসবুক গ্রূপ তৈরি করেছি। যেখানে আমি থাকবো, আমাদের ১৪ জন প্রফেশনাল ওয়েব ডেভেলপার থাকবেন, অন্যান্য কাজে আমাদের আরো কয়েকজন টিম মেম্বার আছেন আরো কিছু কাজে গাইড করার জন্য, তোমাকে সাপোর্ট করার জন্য। আমাদের টার্গেট হচ্ছে--২৪ ঘন্টার মধ্যে তোমার সব প্রশ্নের উত্তর দেয়া। বেশিরভাগ সময় ইনস্ট্যান্ট উত্তর দেয়া হয়। গড়ে ৬-৮ ঘন্টার মধ্যে সব উত্তর পেয়ে যাবে। তাছাড়া লিখে কোডের ভিতরের প্রবলেম সলভ করতে না পারলে (শুক্রবার বাদে) প্রতিদিন তিন টা টাইমে প্যারালালি কয়েকটা মিট সেশন থাকবে। যেখানে তুমি স্ক্রিনশেয়ার করে তোমার প্রবলেম সলভ করতে পারবে। কোনো জিনিস ভালো না বুঝলে বুঝিয়ে দেইয়া হবে। আর কি লাগে? 😉
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapseOne">
+                    কোর্সের কনটেন্ট কি ফাইনাল?  
+                  </button>
+                </h2>
+                <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">প্রয়োজন অনুসারে সবসময় আপডেট করা হয় কনটেন্ট। আমরা ইন্ডাস্ট্রি ফিডব্যাক, আমাদের নিজেদের ফিডব্যাক, কারেন্ট স্টুডেন্টদের ফিডব্যাক এবং যে স্টুডেন্ট রা বর্তমানে চাকরী করছে তাদের ফিডব্যাক মিলিয়ে আমরা প্রতি ব্যাচে কনটেন্ট আপডেট করি।
+
+
+
+
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapseOne">
+                    আমি ফুল টাইম চাকরি করি আমার কি এই কোর্স করতে পারবো ? 
+                  </button>
+                </h2>
+                <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">যদি আমাদের কোর্সের ফ্লো সাথে ফিনিশ করতে চাও এবং SCIC তে যেতে চাও-- তাহলে তোমার তেল বের হয়ে যাবে। কারণ ডেইলি ডেইলি ৬ ঘন্টা সময় না দিলে বা ছুটির দিনে বাড়তি সময় না দিলে আমাদের কোর্সের কনটেন্ট, এসাইনমেন্ট, প্রাকটিস প্রবলেম ফিনিশ করতে পারবে না। কোর্স এ আমরা যত ফ্যাসিলিটি দিচ্ছি তা তুমি নিতে পারবে না। তাই আমি বলবো এক্সট্রিম হার্ডওয়ার্ক করে লেগে থাকতে পারবে সেই মেন্টালিটি নিয়ে তুমি আসতে পারো।
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapseOne">
+                    এই কোর্সে কি WordPress বা Freelancing সম্পর্কে কিছু আছে?  
+                  </button>
+                </h2>
+                <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">এই কোর্সে WordPress বা freelancing রিলেটেড সরাসরি কিছু নাই। কারণ, এই কোর্সের উদ্দেশ্য হচ্ছে সফটওয়্যার কোম্পানিতে ওয়েব ডেভেলপার বলতে যেটা বুঝানো হয় সেটা হতে চায় তাদের জন্য। এছাড়া এডভান্সড লেভেলে ওয়ার্ডপ্রেস কাস্টমাইজ করতে গেলে HTML, CSS, bootstrap, JavaScript, এমনকি React ও জানতে হয়। সেগুলা এই কোর্স থেকে শিখতে পারবে। তবে freelancing বা WordPress কে এই কোর্স হাইলাইট করা হয়নি।
+
+
+
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-none mb-3">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button  class="accordion-button collapsed  bg-none text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapseOne">
+                    এইগুলা ছাড়াও আমার আরো একটা প্রশ্ন আছে। সেটা কোথায় জিজ্ঞেস করবো ?  
+                  </button>
+                </h2>
+                <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-white">কোন টেনশন নাই। তোমার যত প্রশ্ন আছে সেগুলা মনের মাধুরী মিশিয়ে web@programming-hero.com এ পাঠিয়ে দাও। আমরা যত দ্রুত সম্ভব রিপ্লাই দিয়ে দিবো।
+
+
+
+
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center justify-content-center">
+          <img class="img-fluid w-75" src="./images/faq-banner.png" alt=""> 
+       
+           </div>
+        </div>
+       </div>
+       
+     </section>
+
+
+     <!-- swip slider -->
+    <section class="">
+      <div class="mb-5 pb-5 swiper-section">
+        <h1 class="pt-5"></h1>
+        <h1 class="text-center  pt-5">এই ১১ টা প্রোজেক্ট তুমি করবে</h1>
+        <p class="text-center w-50 mx-auto mt-3 text-secondary">প্রোগ্রামিং কনসেপ্ট, স্কিল শেখানোর পাশাপাশি আমরা আরও বাড়তি ৫ টা প্রোজেক্ট করে দেখিয়ে দিবো তুমি এই ১১ টা প্রোজেক্ট যেনও নিজে করতে পারো। কেউ এই ১১টা প্রজেক্ট বুঝে বুঝে করতে পারলে তাকে আর কেউ ঠেকাতে পারবে না।</p>
+        <div class="swiper mySwiper ">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide bg-white  p-4 custom-border h-100">
+              <img src="/images/slider/swip-img-1.png" />
+              <p class="my-3 "><span class="html-span rounded-pill px-3 py-1">HTML</span><span class="ms-2 html-span2 px-3 py-1 rounded-pill">CSS</span></p>
+              <h5 class="slider-heading text-secondary">Personal Portfolio Website</h5>
+              <p class="text-secondary"><small>জাস্ট ৩ দিনে বেসিক html, css আর git শিখে তোমার নিজের ছবি দিয়ে চমৎকার একটা ওয়েবসাইট বানিয়ে ফেলবে। দুনিয়ার যে কারো সাথে শেয়ার করতে পারবে।</small></p>
+            </div>
+            <div class="swiper-slide bg-white  p-4 custom-border h-100">
+              <img src="/images/slider/swip-img-2.png" />
+              <p class="my-3 "><span class="html-span rounded-pill px-3 py-1">HTML</span><span class="ms-2 html-span2 px-3 py-1 rounded-pill">CSS</span><span class="ms-2 html-span3 px-3 py-1 rounded-pill">Bootstrap</span></p>
+              <h5 class="slider-heading text-secondary">Hot Gadget e-commerce Website</h5>
+              <p class="text-secondary"><small>জাস্ট দুই দিনে bootstrap নামক দুনিয়ার সবচেয়ে পপুলার CSS ফ্রেমওয়ার্ক শিখে একটা e-commerce সাইটের ল্যান্ডিং পেইজ ডেভেলপ করে ফেলবে তুমি। </small></p>
+            </div>
+            <div class="swiper-slide bg-white  p-4 custom-border h-100">
+              <img src="/images/slider/swip-img-3.png" />
+              <p class="my-3 "><span class="html-span rounded-pill px-3 py-1">React</span><span class="ms-2 html-span2 px-3 py-1 rounded-pill">Node</span><span class="ms-2 html-span4 px-3 py-1 rounded-pill">MongoDB</span><br><span class="d-inline-block mt-3 html-span3 px-3 py-1 rounded-pill">Heroku</span></p>
+              <h5 class="slider-heading text-secondary">Creative Agency</h5>
+              <p class="text-secondary"><small>ক্রিয়েটিভ এজেন্সি একটি পরিষেবা বিক্রয় ওয়েবসাইট যেখানে ক্লায়েন্ট পরিষেবাগুলি অর্ডার করতে পারবে  </small></p>
+            </div>
+            <div class="swiper-slide bg-white  p-4 custom-border h-100">
+              <img src="/images/slider/swip-img-4.png" />
+              <p class="my-3 "><span class="html-span rounded-pill px-3 py-1">HTML</span><span class="ms-2 html-span2 px-3 py-1 rounded-pill">CSS</span><span class="ms-2 html-span4 px-3 py-1 rounded-pill">Basic React</span><br><span class="d-inline-block mt-3 html-span3 px-3 py-1 rounded-pill">Debugging</span><span class="d-inline-block mt-3 html-span5 ms-2 px-3 py-1 rounded-pill">Dev Tool</span></p>
+              <h5 class="slider-heading text-secondary">Hard Rock Music</h5>
+              <p class="text-secondary"><small>কিভাবে CRUD অপারেশন করে API ইউজ করতে হয়। GET POST রিকুয়েস্ট পাঠাতে হয়। সেগুলা শিখবে। একদম ভ্যানিলা জাভাস্ক্রিপ্ট দিয়ে।  </small></p>
+            </div>
+            <div class="swiper-slide bg-white  p-4 custom-border h-100">
+              <img src="/images/slider/swip-img-5.png" />
+              <p class="my-3 "><span class="html-span rounded-pill px-3 py-1">React</span><span class="ms-2 html-span2 px-3 py-1 rounded-pill">CSS</span><span class="ms-2 bg-warning text-white fw-bold px-3 py-1 rounded-pill">React Router</span><br></p>
+              <h5 class="slider-heading text-secondary">Volunteer Network</h5>
+              <p class="text-secondary"><small>ভলান্টিয়ার ম্যানেজ করার সিম্পল একটা ওয়েবসাইট। যেখানে কেউ ভলান্টিয়ার হতে চাইলে বিভিন্ন ভলান্টিয়ার কাজ থেকে সিলেক্ট করতে পারবে। বুকিং দিতে পারবে।   </small></p>
+            </div>
+            <div class="swiper-slide bg-white  p-4 custom-border h-100">
+              <img src="/images/slider/swip-img-6.png" />
+         
+              <p class="my-3  d-inline-flex align-items-center  flex-wrap "><span class="html-span rounded-pill px-3 py-1">React</span><span class="ms-2 bg-warning text-white fw-bold px-3 py-1 rounded-pill">React Router</span><span class="ms-lg-2 ms-0 html-span3 fw-bold px-3 py-1 rounded-pill mt-3 mt-sm-0  mt-lg-0 mt-md-0 p-0 ms-0 ">Meterial Ui</span></p>
+              <h5 class="slider-heading text-secondary">Travel Guru</h5>
+              <p class="text-secondary"><small>একটা ট্রাভেলিং ওয়েবসাইট। যেখানে তুমি কোন ডেস্টিনেশনে যাবে সেই অনুসারে বুক করতে পারবে। রাউটিং প্রাকটিস করবে।    </small></p>
+            </div>
+            <div class="swiper-slide bg-white  p-4 custom-border h-100">
+              <img src="/images/slider/swip-img-7.png" />
+              <p class="my-3  d-inline-flex align-items-center  flex-wrap "><span class="html-span rounded-pill px-3 py-1">React</span><span class="ms-2 bg-warning text-white fw-bold px-3 py-1 rounded-pill">React Router</span><span class="ms-lg-2 ms-0 html-span3 fw-bold px-3 py-1 rounded-pill mt-2 ">Firebase</span><br><span class=" html-span5 d-inline-block mt-lg-3 mt-2 ms-2 fw-bold px-3 py-1  rounded-pill">Heroku</span></p>
+              <h5 class="slider-heading text-secondary">Red Onion (Restaurant website)</h5>
+              <p class="text-secondary"><small>একটা রেস্টুরেন্ট এর ওয়েবসাইট এর মেইন জিনিস বানাবে তুমি। যেখানে মেনু থাকবে। খাবারের দাম থাকবে। কার্টে খাবার সিলেক্ট করতে পারবে। অর্ডার প্লেস করতে পারবে।   </small></p>
+            </div>
+            <div class="swiper-slide bg-white  p-4 custom-border h-100">
+              <img src="/images/slider/swip-img-8.png" />
+              <p class="my-3  d-inline-flex align-items-center  flex-wrap"><span class="html-span rounded-pill px-3 py-1">React</span><span class="ms-2 bg-warning text-white fw-bold px-3 py-1 rounded-pill">React Router</span><span class="ms-lg-2 ms-0 html-span3 mt-2 fw-bold px-3 py-1 rounded-pill">Firebase</span><br><span class=" html-span5 d-inline-block mt-lg-3 mt-2 ms-2 fw-bold px-3 py-1  rounded-pill">Heroku</span></p>
+              <h5 class="slider-heading text-secondary">Doctors Portal)</h5>
+              <p class="text-secondary"><small>রোগী হিসেবে ডাক্তারের চেম্বারে গিয়ে এপয়েন্টমেন্ট সেট করা। আবার ডাক্তার হিসেবে এপয়নমেন্ট লিস্ট দেখা। প্রেসক্রিপশন লেখা রিলেটেড প্রজেক্ট ডেভেলপ করবে।   </small></p>
+            </div>
+            <div class="swiper-slide bg-white  p-4 custom-border h-100">
+              <img src="/images/slider/swip-img-9.png" />
+              <p class="my-3  d-inline-flex align-items-center  flex-wrap "><span class="html-span rounded-pill px-3 py-1">React</span><span class="ms-2 bg-warning text-white fw-bold px-3 py-1 rounded-pill">React Router</span><span class="ms-lg-2 ms-0 mt-2 html-span3 fw-bold px-3 py-1 rounded-pill">Meterial Ui</span></p>
+              <h5 class="slider-heading text-secondary">Power-x-gym (gym website)</h5>
+              <p class="text-secondary"><small>একটা জিম এর ওয়েবসাইট থাকবে। সেখানে কি কি সুবিধা আছে। মেম্বারশিপ, পেমেন্ট গেটওয়ে এবং জিম নিয়ে আরো তথ্য নিয়ে একটা ওয়েবসাইট ডেভেলপ করবে তুমি।    </small></p>
+            </div>
+           
+            
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+    
+      </div>
+
+    </section>
+
+    <!-- CEO -->
+    <section class="mt-5 py-5 ">
+     
+      <div class="container mt-5 pt-5 px-3">
+        <div class="row mx-lg-5">
+          <div class="col-md-5 text-center text-lg-start">
+            <img class="img-fluid rounded-3 w-50" src="./images/jhankar-mahbub.png" alt="">
+         
+          </div>
+          <div class="col-md-7 mt-5 mt-lg-0 d-flex align-items-center">
+         <div>
+          <h3><b>ঝংকার মাহবুব</b></h3>
+          <p class="mt-3 text-secondary">ঝংকার মাহবুব এক দশক ধরে প্রোগ্রমিং ও ওয়েব ডেভেলপমেন্টের সাথে জড়িত। বুয়েটের পড়ালেখা শেষ করার পর কম্পিউটার সায়েন্সে মাস্টার্স করেন আমেরিকার নর্থ ডেকোটা স্টেট ইউনিভার্সিটি। তারপর সিনিয়র ওয়েব ডেভেলপার হিসেবে দীর্ঘদিন ধরে কাজ করেছেন যুক্তরাষ্ট্রের নিলসেন কোম্পানিতে। বর্তমানে স্ত্রী কারিনা ইসলামসহ বসবাস করছেন যুক্তরাষ্ট্রের ক্যালিফোর্নিয়ার অঙ্গরাজ্যের সিলিকনভ্যালি এরিয়াতে। প্রোগ্রামিংকে সহজ, মজার ও গল্পের ছলে উপস্থাপন করা নিয়ে জনপ্রিয় তিনটা বই লিখে ফেলেছেন তিনি। বইগুলো হচ্ছে: হাবলুদের জন্য প্রোগ্রামিং, প্রোগ্রামিংয়ের বলদ টু বস, আর প্রোগ্রামিংয়ের চৌদ্দগোষ্ঠী। এছাড়াও দিক-নির্দেশনামূলক বই লিখেছেন: রিচার্জ your ডাউন ব্যাটারি ও প্যারাময় লাইফের প্যারাসিটামল। আর অবসর সময়ে, Jhankar Mahbub নামক ইউটিউব চ্যানেলে প্রোগ্রামিং ও স্টুডেন্টদেরজন্য দিক-নির্দেশনামূলক ভিডিও বানান।</p>
+         </div>
+           
+
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- student feedbacks -->
+
+    <section style="background-color: #F5F7FF;" class="slider2-container pb-3">
+      <h1 class="text-center my-5 py-5">স্টুডেন্টদের কোর্স সম্পর্কে মতামত</h1>
+      <div class="wrapper">
+        <div class="carouseltwo owl-carousel">
+          <div style="background: #F5F7FF;" class="card   card-1 text-black ">
+            <div class="position-relative feedback bg-white mt-5 rounded-3 p-5 ">
+              <small class="position-absolute top-0 start-50 overflow-auto translate-middle badge  ">
+               <img style="height:95px;width:95px;object-fit:cover" class="rounded-circle" src="./images/student/student-1.jpeg" alt="">
+                
+              </small>
+              <h1 class="mt-5 pt-5">Habibur Rahman Habib</h1>
+              <p>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star "></i>
+              </p>
+              <p class="text-secondary">it is a great experience to do this course with jhankar bhaia.jhankar bhaiar moto ekjon teacher thakle na sikhe kono upay nei.
+                special thanks to jhankar bhaia.
+                & entire programming hero team.</p>
+
+            </div>
+         
+           
+            
+          </div>
+          <div style="background: #F5F7FF;" class="card h-100   card-1 text-black ">
+            <div class="position-relative h-100 feedback bg-white mt-5 rounded-3 p-5">
+              <small class="position-absolute top-0 start-50 overflow-auto translate-middle badge  ">
+               <img style="height:95px;width:95px;object-fit:cover" class="rounded-circle" src="./images/student/student-2.jpg" alt="">
+                
+              </small>
+              <h1 class="mt-5 pt-5">Hasan Rana</h1>
+              <p>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star "></i>
+              </p>
+              <p class="text-secondary">This is course is completely different. This course makes me a stronger, hard worker, and dedicated. and I am so proud to be a part of this course. I think I have made the best decision of my life by taking this course. What I have learned so far is enough for a junior </p>
+
+            </div>
+         
+           
+            
+          </div>
+          <div style="background: #F5F7FF;" class="card h-100   card-1 text-black ">
+            <div class="position-relative h-100 feedback bg-white mt-5 rounded-3 p-5">
+              <small class="position-absolute top-0 start-50 overflow-auto translate-middle badge  ">
+               <img style="height:95px;width:95px;object-fit:cover" class="rounded-circle" src="./images/student/student-4.jpg" alt="">
+                
+              </small>
+              <h1 class="mt-5 pt-5">Rabius Sunny</h1>
+              <p>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star "></i>
+              </p>
+              <p class="text-secondary">Very effective and caring course. Thank you so much everyone related to this journey who have worked hard and made us hard working. Special thanks for giving access to contents after finishing. Please consider modules about php/larevel, React Native, Redux in ACC though</p>
+
+            </div>
+         
+           
+            
+          </div>
+          <div style="background: #F5F7FF;" class="card h-100   card-1 text-black ">
+            <div class="position-relative h-100 feedback bg-white mt-5 rounded-3 p-5">
+              <small class="position-absolute top-0 start-50 overflow-auto translate-middle badge  ">
+               <img style="height:95px;width:95px;object-fit:cover" class="rounded-circle" src="./images/student/student-1.jpeg" alt="">
+                
+              </small>
+              <h1 class="mt-5 pt-5">Habibur Rahman Habib</h1>
+              <p>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star "></i>
+              </p>
+              <p class="text-secondary">it is a great experience to do this course with jhankar bhaia.jhankar bhaiar moto ekjon teacher thakle na sikhe kono upay nei.
+                special thanks to jhankar bhaia.
+                & entire programming hero team.</p>
+
+            </div>
+         
+           
+            
+          </div>
+          <div style="background: #F5F7FF;" class="card h-100   card-1 text-black ">
+            <div class="position-relative feedback bg-white mt-5 rounded-3 p-5">
+              <small class="position-absolute top-0 start-50 overflow-auto translate-middle badge  ">
+               <img style="height:95px;width:95px;object-fit:cover" class="rounded-circle" src="./images/student/student-1.jpeg" alt="">
+                
+              </small>
+              <h1 class="mt-5 pt-5">Habibur Rahman Habib</h1>
+              <p>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star "></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star "></i>
+              </p>
+              <p class="text-secondary">it is a great experience to do this course with jhankar bhaia.jhankar bhaiar moto ekjon teacher thakle na sikhe kono upay nei.
+                special thanks to jhankar bhaia.
+                & entire programming hero team.</p>
+
+            </div>
+         
+           
+            
+          </div>
+       
+        </div>
+
+      </div>
+      <button  class="btn ctn-btn  mx-auto btn-color text-white fw-bold d-flex align-items-center justify-content-end rounded-pill px-4  mt-2 ">
+        <p></p>
+        <p class="m-0 mx-auto">Cotinue
+        Course</p> <i style="color:#FF2F9C;padding: 10px;"
+          class="fas fa-arrow-right  bg-white rounded-circle"></i></button>
+    </section>
+
+  
+  </main>
+
+  <!-- main part end -->
+
+  <!--========================= Footer  part start ============================================-->
+  <footer>
+     <section class="footer-section p-5 mt-5">
+       <div class="container">
+         <div class="row">
+           <div class="col-md-4">
+             <img class="img-fluid" src="./images/logo.png" alt="">
+             <p class="text-white my-3"><i class="fas fa-map-marker-alt"></i> Level-4, 34, Awal Centre, Banani, Dhaka</p>
+             <p class="text-white"><i class="fas fa-envelope"></i> Official: web@programming-hero.com</p>
+             <p class="text-white my-3"><i class="fas fa-phone-alt"></i>  Helpline : 01322810865 , 01322810873 , 01322810869</p>
+             <p class="text-white">(Available : Sat - Thu, 10:00 AM to 7:00 PM)</p>
+             <img class="img-fluid" src="./images/play-store.png" alt="">
+           </div>
+           <div class="col-md-4 text-white ">
+          <div class="ms-lg-5 ps-lg-5">
+            <h5>About Us</h5>
+            <h6>Success</h6>
+            <h6 class="mt-3">Refund policy</h6>
+            <h6 class="mt-3">Terms and Conditions</h6>
+            <h6 class="mt-3">Privacy Policy</h6>
+
+            <div class=" scocial-icon mt-4">
+             <i class="fab fa-facebook-square"></i>
+             <i class="fab fa-instagram-square"></i>
+             <i class="fab fa-linkedin"></i>
+             <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+           </div>
+           <div class="col-md-4">
+             <img class="img-fluid w-100" src="./images/footer-thumbnail.png" alt="">
+           </div>
+           <p class="text-white fw-bold text-center mt-5"><small><strong>Copyright © 2022 Programming-hero.com</strong></small></p>
+         </div>
+       </div>
+
+     </section>
+  </footer>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+   </script>
+<script>
+ 
+  const items=   document.getElementsByClassName('content')
+  for(const item of items){
+    item.addEventListener('click',function(){
+
+       item.parentNode.parentNode.classList.toggle('isActive')
+       item.parentNode.parentNode.classList.toggle('h-100')
+       
+    })
+     
+  }
+
+  // ===============================//
+  document.getElementById('course-specialty').addEventListener('click',function(){
+        document.getElementById('course-outline').style.display='none'
+        document.getElementById('course-card').style.display='block'
+        document.getElementById('course-sedule').style.color='black'
+        document.getElementById('course-specialty').style.color='#FF136F'
+        document.getElementById('hr-line2').classList.remove('custom-hr')
+        document.getElementById('hr-line').classList.add('custom-hr')
+
+  })
+document.getElementById('course-sedule').addEventListener('click',function(){
+        document.getElementById('course-outline').style.display='block'
+        document.getElementById('course-card').style.display='none'
+        document.getElementById('course-sedule').style.color='#FF136F'
+        document.getElementById('course-specialty').style.color='black'
+        
+        document.getElementById('hr-line').classList.remove('custom-hr')
+       
+        document.getElementById('hr-line2').classList.add('custom-hr')
+  })
+  
+</script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+<script>
+  $(".carouseltwo").owlCarousel({
+    margin: 20,
+    loop: true,
+    autoplay: false,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    responsive: {
+      0:{
+        items:1,
+        nav: false
+      },
+      600:{
+        items:2,
+        nav: false
+      },
+      1000:{
+        items:2,
+        nav: false
+      }
+    }
+  });
+</script>
+  
+
+
+
+</body>
+
+</html>

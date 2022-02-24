@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&family=Poppins:wght@200;400&display=swap');
+/* 
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+body{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.card-title{
+  font-size: 17px;
+  
+  line-height: 1.2;
+  color: #383838;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+span{
+  font-family: 'Hind Siliguri', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+  font-family: 'Poppins', sans-serif;
+}
+.header_section{
+    height: 300px;
+   
+}
+.custom-border{
+    border-radius: 15px;
+}
+.header_section::before{
+    content: '';
+    position: absolute;
+    height: 750px;
+    z-index: -50;
+    width: 100%;
+    background: #5A00DD;
+   
+}
+
+.res-img{
+    max-height: 50vh;
+}
+.btn-color{
+    background-color: #FF2F9C;
+}
+
+.card{
+    border-radius: 15px !important;
+    min-height: 340px !important;
+    overflow: hidden !important;
+}
+
+.isActive p{
+  
+   max-height: 90px;
+   overflow: hidden;
+
+}
+.card  span::before{
+    content: "অল্প দেখুন";
+   
+}
+
+
+.isActive span::before{
+    content: "আরও দেখুন ";
+}
+#course-specialty{
+    color: #FF136F;
+    cursor: pointer;
+    position: relative;
+}
+#course-outline{
+    display: none;
+    
+}
+#course-sedule{
+    cursor: pointer;
+    position: relative;
+}
+.custom-hr{
+    color: red;
+    height: 10px !important;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 40px;
+    padding: 0;
+}
+
+.bg-none{
+    background: none !important;
+}
+
+/* swiper */
+
+
+.swiper-section{
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 40%;
+  min-height: 650px;
+  max-height: 650px;
+ 
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+
+
+.html-span{
+    background: linear-gradient(45deg,#ff193f,#ff35b4);
+    color: white;
+    font-weight: bold;
+    
+}
+.html-span2{
+    background: linear-gradient(45deg,#5a00dd,#684efb);
+    color: white;
+    font-weight: bold;
+    
+}
+.html-span3{
+    background: linear-gradient(45deg,#2eb1ea,#2eb1ea);
+    color: white;
+    font-weight: bold;
+    
+}
+.html-span4{
+    background: linear-gradient(45deg,#ff6480,#f22e63);
+    color: white;
+    font-weight: bold;
+    
+}
+.html-span5{
+    background: linear-gradient(45deg,#2bde8c,#86f244);
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+.slider-heading{
+    font-weight: 500;
+    font-size: 1.09375rem;
+    
+
+}
+
+
+/* slider two */
+.wrapper{
+    width: 100%;
+  }
+  .carouseltwo{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+  }
+  .carouseltwo .card{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 250px;
+    font-size: 90px;
+    font-weight: 600;
+    border: none;
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 4px 15px rgba(0,0,0,0.2); */
+  }
+  .carouseltwo .card-1{
+    /* background: #ed1c24; */
+  }
+  .carouseltwo .card-2{
+    background: #0072bc;
+  }
+  .carouseltwo .card-3{
+    background: #39b54a;
+  }
+  .carouseltwo .card-4{
+    background: #f26522;
+  }
+  .carouseltwo .card-5{
+    background: #630460;
+  }
+  .owl-dots{
+    text-align: center;
+    margin-top: 40px;
+  }
+  /* .owl-dot{
+    height: 15px;
+    width: 10px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #0072bc!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: #0072bc!important;
+  } */
+  .sliderTwoContainer{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .feedback{
+    max-height: 450px;
+    min-height: 460px;
+  }
+
+  .feedback>h1{
+      margin: 0;
+      padding: 0;
+      font-weight: 500;
+      line-height: 1.2;
+      font-size: 22px;
+  }
+  .feedback>p{
+      font-size: 16px;
+      line-height: 20px;
+      
+  }
+  .feedback>p>i{
+      color: #FFB400;
+     
+  }
+
+
+  .footer-section{
+    background-color: #6331F0;
+  }
+  .scocial-icon>i{
+    color: white;
+    font-size: 24px;
+    margin-right: 13px;
+  }
+
+  .enroll-btn{
+    background-color: #622AED;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 0;
+    border-radius: 10px;
+
+  }
+  .enroll-icon{
+    height: 24px;
+    width: 24px;
+  }
+  .advantage-header{
+    width: 40%;
+  }
+  .ctn-btn{
+    width: 300px;
+ 
+  }
+  .course-time{
+    width: 83%;
+    border-radius: 20px;
+  } 
+
+  @media only screen and (max-width: 480px) {
+    .advantage-header{
+      width: 100%;
+    }
+    .ctn-btn{
+      width: 200px;
+      display: inline-block;
+      margin-bottom: 20px;
+     
+
+    }
+    .course-time{
+      width: 100%;
+      
+    } 
+    .swiper-slide {
+     
+      width: 80%;
+     
+    }
+    .swiper-slide {
+   
+      min-height: 450px;
+      max-height: 450px;
+     
+    }
+  }
